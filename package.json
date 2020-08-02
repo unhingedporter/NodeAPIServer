@@ -1,0 +1,18 @@
+{
+  "name": "NodeAPIServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "log4js": "^6.3.0",
+    "node-postgres": "^0.6.2"
+  }
+}
